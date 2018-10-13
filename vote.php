@@ -62,7 +62,7 @@ function vote()
   echo  post_data("https://moonflyff.fr/ajax/connexion.php", "login=kidouss&password=e32bf46fc4da6d28002221f259220969&remember=0");
   echo  post_data("https://moonflyff.fr/ajax/recompenses.php", "id=1");
 	//1ee31ec61d018da8a667cea06a33f052
-   e32bf46fc4da6d28002221f259220969
+   
    
 }
 
