@@ -59,8 +59,7 @@ function post_data($site,$data){
 
 function vote()
 {
-  echo  grab_page("https://moonflyff.fr/ajax/connexion.php", "login=saitamas&password=e32bf46fc4da6d28002221f259220969&remember=0");
-  sleep(5);
+  echo  post_data("https://moonflyff.fr/ajax/connexion.php", "login=kidouss&password=1ee31ec61d018da8a667cea06a33f052&remember=0");
   echo  post_data("https://moonflyff.fr/ajax/recompenses.php", "id=1");
 	
    
