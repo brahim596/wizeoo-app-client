@@ -1,6 +1,9 @@
 #!/usr/bin/php
 <?php
 
+
+$id=$argv[1];
+$mdp=$argv[2];
 //Upload a blank cookie.txt to the same directory as this file with a CHMOD/Permission to 777
 function login($url,$data){
     $fp = fopen("cookie.txt", "w");
@@ -15,7 +18,7 @@ function login($url,$data){
 	curl_setopt($login, CURLOPT_SSL_VERIFYPEER, 0);
 	curl_setopt($login, CURLOPT_SSL_VERIFYHOST, 0);
    curl_setopt($login, CURLOPT_FOLLOWLOCATION, TRUE);
-    curl_setopt($login, CURLOPT_POST, TRUE);
+    curl_setopt($login, CURLOPT_POST, TRUE);	
     curl_setopt($login, CURLOPT_POSTFIELDS, $data);
     ob_start();
     return curl_exec ($login);
@@ -57,15 +60,15 @@ function post_data($site,$data){
    
 }
 
-function vote()
+function vote($id,$mdp)
 {
-  echo  login("https://moonflyff.fr/ajax/connexion.php", "login=kidouss&password=1ee31ec61d018da8a667cea06a33f052&remember=0");
-  echo  post_data("https://moonflyff.fr/ajax/recompenses.php", "id=1");
+   login("https://moonflyff.fr/ajax/connexion.php", "login=".$id."&password=".$mdp."&remember=0");
+//echo  login("https://moonflyff.fr/ajax/connexion.php", "login=kidouss&password=1ee31ec61d018da8a667cea06a33f052&remember=0");
+   post_data("https://moonflyff.fr/ajax/recompenses.php", "id=1");
 	
    
    
 }
-
-vote();
+vote($id,$mdp);
 echo "vote fait";
 ?>
