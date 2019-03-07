@@ -4,7 +4,7 @@ php vote.php kidouss 1ee31ec61d018da8a667cea06a33f052
 
 timeout=10;
 
-nohup openvpn /home/saitamouk/Documents/wizeoo-app-client/openvpn_udp/fr26.nordvpn.com.udp.ovpn &
+nohup openvpn /home/ubuntu/workspace/wizeoo-app-client/openvpn_udp/fr26.nordvpn.com.udp.ovpn &
 
 sleep $tiemout
 
@@ -20,7 +20,7 @@ sleep $timeout
 
 #1***************************************************************************************
 
-nohup openvpn /home/saitamouk/Documents/wizeoo-app-client/openvpn_udp/fr27.nordvpn.com.udp.ovpn &
+nohup openvpn /home/ubuntu/workspace/wizeoo-app-client/openvpn_udp/fr27.nordvpn.com.udp.ovpn &
 
 sleep $timeout
 
@@ -34,7 +34,7 @@ sleep $timeout
 
 #2***************************************************************************************
 
-nohup openvpn /home/saitamouk/Documents/wizeoo-app-client/openvpn_udp/fr28.nordvpn.com.udp.ovpn &
+nohup openvpn /home/ubuntu/workspace/wizeoo-app-client/openvpn_udp/fr28.nordvpn.com.udp.ovpn &
 
 sleep $timeout
 
@@ -48,7 +48,7 @@ sleep $timeout
 
 #3***************************************************************************************
 
-nohup openvpn /home/saitamouk/Documents/wizeoo-app-client/openvpn_udp/be12.nordvpn.com.udp.ovpn &
+nohup openvpn /home/ubuntu/workspace/wizeoo-app-client/openvpn_udp/be12.nordvpn.com.udp.ovpn &
 
 sleep $timeout
 
@@ -62,7 +62,7 @@ sleep $timeout
 
 #4***************************************************************************************
 
-nohup openvpn /home/saitamouk/Documents/wizeoo-app-client/openvpn_udp/at47.nordvpn.com.udp.ovpn &
+nohup openvpn /home/ubuntu/workspace/wizeoo-app-client/openvpn_udp/at47.nordvpn.com.udp.ovpn &
 
 sleep $timeout
 
@@ -76,7 +76,7 @@ sleep $timeout
 
 #5***************************************************************************************
 
-nohup openvpn /home/saitamouk/Documents/wizeoo-app-client/openvpn_udp/au132.nordvpn.com.udp.ovpn &
+nohup openvpn /home/ubuntu/workspace/wizeoo-app-client/openvpn_udp/au132.nordvpn.com.udp.ovpn &
 
 sleep $timeout
 
@@ -90,7 +90,7 @@ sleep $timeout
 
 #6***************************************************************************************
 
-nohup openvpn /home/saitamouk/Documents/wizeoo-app-client/openvpn_udp/au193.nordvpn.com.udp.ovpn &
+nohup openvpn /home/ubuntu/workspace/wizeoo-app-client/openvpn_udp/au193.nordvpn.com.udp.ovpn &
 
 sleep $timeout
 
