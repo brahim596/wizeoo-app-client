@@ -1,3 +1,11 @@
+
+
+
+
+#!/bin/sh
+
+timeout=10;
+
 nohup openvpn /home/ubuntu/workspace/wizeoo-app-client/openvpn_udp/fr28.nordvpn.com.udp.ovpn &
 
 sleep $timeout
@@ -27,9 +35,6 @@ sleep $timeout
 #4***************************************************************************************
 
 
-#!/bin/sh
-
-timeout=10;
 
 nohup openvpn /home/ubuntu/workspace/wizeoo-app-client/openvpn_udp/at47.nordvpn.com.udp.ovpn &
 
