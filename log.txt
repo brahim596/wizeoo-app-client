@@ -1,0 +1,72 @@
+HTTP/1.1 200 OK
+Date: Fri, 08 Mar 2019 21:11:18 GMT
+Server: Apache/2.4.38 (Debian) OpenSSL/1.1.1b
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=32536000; includeSubDomains; preload
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Vary: Accept-Encoding
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Access-Control-Allow-Origin: *
+Content-Length: 239
+Content-Type: text/html; charset=UTF-8
+
+﻿<div class="alert alert-danger alert-dismissable"><button type="button" class="closeA" data-dismiss="alert" aria-hidden="true">&times;</button><i class="fa fa-exclamation-triangle"></i> Vous devez attendre 2 heures et 10 minutes !</div>vote faitFri Mar  8 21:09:09 2019 WARNING: file '/home/ubuntu/workspace/wizeoo-app-client/openvpn_udp/pass.txt' is group or others accessible
+Fri Mar  8 21:09:09 2019 OpenVPN 2.4.4 x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] built on Sep  5 2018
+Fri Mar  8 21:09:09 2019 library versions: OpenSSL 1.1.0g  2 Nov 2017, LZO 2.08
+Fri Mar  8 21:09:09 2019 WARNING: --ping should normally be used with --ping-restart or --ping-exit
+Fri Mar  8 21:09:09 2019 Outgoing Control Channel Authentication: Using 512 bit message hash 'SHA512' for HMAC authentication
+Fri Mar  8 21:09:09 2019 Incoming Control Channel Authentication: Using 512 bit message hash 'SHA512' for HMAC authentication
+Fri Mar  8 21:09:09 2019 TCP/UDP: Preserving recently used remote address: [AF_INET]185.104.185.163:1194
+Fri Mar  8 21:09:09 2019 Socket Buffers: R=[212992->212992] S=[212992->212992]
+Fri Mar  8 21:09:09 2019 UDP link local: (not bound)
+Fri Mar  8 21:09:09 2019 UDP link remote: [AF_INET]185.104.185.163:1194
+Fri Mar  8 21:09:10 2019 TLS: Initial packet from [AF_INET]185.104.185.163:1194, sid=c1262530 f103de55
+Fri Mar  8 21:09:10 2019 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
+Fri Mar  8 21:09:10 2019 VERIFY OK: depth=2, C=PA, O=NordVPN, CN=NordVPN Root CA
+Fri Mar  8 21:09:10 2019 VERIFY OK: depth=1, C=PA, O=NordVPN, CN=NordVPN CA3
+Fri Mar  8 21:09:10 2019 VERIFY KU OK
+Fri Mar  8 21:09:10 2019 Validating certificate extended key usage
+Fri Mar  8 21:09:10 2019 ++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
+Fri Mar  8 21:09:10 2019 VERIFY EKU OK
+Fri Mar  8 21:09:10 2019 VERIFY OK: depth=0, CN=fr26.nordvpn.com
+Fri Mar  8 21:09:10 2019 Control Channel: TLSv1.2, cipher TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Mar  8 21:09:10 2019 [fr26.nordvpn.com] Peer Connection Initiated with [AF_INET]185.104.185.163:1194
+Fri Mar  8 21:09:11 2019 SENT CONTROL [fr26.nordvpn.com]: 'PUSH_REQUEST' (status=1)
+Fri Mar  8 21:09:11 2019 PUSH: Received control message: 'PUSH_REPLY,redirect-gateway def1,sndbuf 524288,rcvbuf 524288,dhcp-option DNS 103.86.96.100,dhcp-option DNS 103.86.99.100,comp-lzo no,route-gateway 10.8.8.1,topology subnet,ping 60,ping-restart 180,ifconfig 10.8.8.112 255.255.255.0,peer-id 80,cipher AES-256-GCM'
+Fri Mar  8 21:09:11 2019 OPTIONS IMPORT: timers and/or timeouts modified
+Fri Mar  8 21:09:11 2019 OPTIONS IMPORT: compression parms modified
+Fri Mar  8 21:09:11 2019 OPTIONS IMPORT: --sndbuf/--rcvbuf options modified
+Fri Mar  8 21:09:11 2019 Socket Buffers: R=[212992->425984] S=[212992->425984]
+Fri Mar  8 21:09:11 2019 OPTIONS IMPORT: --ifconfig/up options modified
+Fri Mar  8 21:09:11 2019 OPTIONS IMPORT: route options modified
+Fri Mar  8 21:09:11 2019 OPTIONS IMPORT: route-related options modified
+Fri Mar  8 21:09:11 2019 OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+Fri Mar  8 21:09:11 2019 OPTIONS IMPORT: peer-id set
+Fri Mar  8 21:09:11 2019 OPTIONS IMPORT: adjusting link_mtu to 1657
+Fri Mar  8 21:09:11 2019 OPTIONS IMPORT: data channel crypto options modified
+Fri Mar  8 21:09:11 2019 Data Channel: using negotiated cipher 'AES-256-GCM'
+Fri Mar  8 21:09:11 2019 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Fri Mar  8 21:09:11 2019 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+Fri Mar  8 21:09:11 2019 ROUTE_GATEWAY 172.31.16.1/255.255.240.0 IFACE=eth0 HWADDR=06:08:ee:42:e9:3a
+Fri Mar  8 21:09:11 2019 TUN/TAP device tun0 opened
+Fri Mar  8 21:09:11 2019 TUN/TAP TX queue length set to 100
+Fri Mar  8 21:09:11 2019 do_ifconfig, tt->did_ifconfig_ipv6_setup=0
+Fri Mar  8 21:09:11 2019 /sbin/ip link set dev tun0 up mtu 1500
+Fri Mar  8 21:09:11 2019 /sbin/ip addr add dev tun0 10.8.8.112/24 broadcast 10.8.8.255
+Fri Mar  8 21:09:11 2019 /sbin/ip route add 185.104.185.163/32 via 172.31.16.1
+Fri Mar  8 21:09:11 2019 /sbin/ip route add 0.0.0.0/1 via 10.8.8.1
+Fri Mar  8 21:09:11 2019 /sbin/ip route add 128.0.0.0/1 via 10.8.8.1
+Fri Mar  8 21:09:11 2019 Initialization Sequence Completed
+Fri Mar  8 21:23:39 2019 event_wait : Interrupted system call (code=4)
+Fri Mar  8 21:23:39 2019 SIGTERM received, sending exit notification to peer
+Fri Mar  8 21:23:39 2019 event_wait : Interrupted system call (code=4)
+Fri Mar  8 21:23:39 2019 Ignoring SIGHUP received during exit notification
+Fri Mar  8 21:23:42 2019 /sbin/ip route del 185.104.185.163/32
+Fri Mar  8 21:23:42 2019 /sbin/ip route del 0.0.0.0/1
+Fri Mar  8 21:23:42 2019 /sbin/ip route del 128.0.0.0/1
+Fri Mar  8 21:23:42 2019 Closing TUN/TAP interface
+Fri Mar  8 21:23:42 2019 /sbin/ip addr del dev tun0 10.8.8.112/24
+Fri Mar  8 21:23:42 2019 SIGTERM[soft,exit-with-notification] received, process exiting
